@@ -7,3 +7,4 @@ This project was built alongside the React: Building an Interface course on Link
  - Lodash
  - Binding this
  - ComponentDidMount
+ - React Developer Tools
