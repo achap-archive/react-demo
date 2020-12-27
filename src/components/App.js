@@ -74,7 +74,7 @@ class App extends Component {
       .then(response => response.json())
       .then(result => {
         const apts = result.map(item => {
-          item.aptId = this.state.lastIndex; // create unique id to iteratre through
+          item.aptId = this.state.lastIndex; // create unique id to iterate through
           this.setState({ lastIndex: this.state.lastIndex + 1 }) // increment unique id index
           return item;
         });
